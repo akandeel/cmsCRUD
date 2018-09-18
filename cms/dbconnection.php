@@ -16,7 +16,7 @@ $password = "password";
 
     public function Closeconn()
         {
-        $conn->close();
+        $conn = null;
         }
 
  ?>
